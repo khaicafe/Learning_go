@@ -2,12 +2,15 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/khaicafe/Learning_go/server"
 )
 
 func main() {
 	fmt.Println("abc")
 
-	sBot := englishBot{}
+	// sBot := server.englishBot{}
 
-	// printGreeting(sBot)
+	sTest := server.M()
+	fmt.Println("abc ", sTest)
 }

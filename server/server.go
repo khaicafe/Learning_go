@@ -16,3 +16,7 @@ func (e englishBot) getGreeting() string {
 func printGreetingEnglish(e englishBot) {
 	fmt.Println(e.getGreeting())
 }
+
+func M() string {
+	return "welcome to Go"
+}
